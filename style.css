@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6e96ee, #dd1bfa);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.loginPage {
+  padding: 40px 30px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+.loginPage h1 {
+  text-align: center;
+}
+.input input {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  margin: 10px 0;
+  border-bottom: 2px solid grey;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+.forget a {
+  text-align: left;
+}
+.forget-password {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.forget-password a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease-in;
+}
+.forget-password a:hover {
+  color: #6e96ee;
+}
+.loginbtn {
+  width: 100%;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #6e96ee, #dd1bfa);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.loginbtn:hover {
+  background: linear-gradient(to right, #dd1bfa, #6e96ee);
+}
+.signup {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.signup p {
+  color: #555;
+  font-size: 0.85rem;
+}
+.signup .social a {
+  text-decoration: none;
+  font-size: 2rem;
+  transition: all 0.3s ease-in;
+}
+.signup .social a:nth-child(1) {
+  color: #598fea;
+}
+.signup .social a:nth-child(2) {
+  color: #48cde3;
+}
+.signup .social a:nth-child(3) {
+  color: #ed3f3e;
+}
+
+@media (max-width:530px) {
+  .loginPage{
+    width: 90%;
+  }
+}
