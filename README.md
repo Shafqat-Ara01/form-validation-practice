@@ -15,5 +15,8 @@ It demonstrates how to implement **client-side validation** with custom error me
 - CSS3  
 - JavaScript (Vanilla JS, no libraries)  
 
- ## Demo Screenshot(https://github.com/user-attachments/assets/1fd5be57-18ec-4896-ba43-113df59fcd6f)
+##  Demo Screenshot  
+
+![Form Demo](https://github.com/user-attachments/assets/1fd5be57-18ec-4896-ba43-113df59fcd6f)
+
 
